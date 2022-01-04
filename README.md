@@ -11,3 +11,4 @@ Sample Project Task for The E Foundation
 7. Localize the button and the error message for no connection, e.g. in your language and English.
 
 ## Screenshot
+![Screenshot](screenshot.png)
