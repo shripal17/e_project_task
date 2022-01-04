@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity() {
         override fun onErrorResponse(error: VolleyError?) {
           imageView.isVisible = true
           progressBar.isVisible = false
-          Snackbar.make(root, "Error loading image", 3_000).show()
+          Snackbar.make(root, R.string.no_network, 3_000).show()
         }
       },
     ) {})
